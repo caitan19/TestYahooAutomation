@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/TestFlipkartAutomation.iml" filepath="$PROJECT_DIR$/.idea/TestFlipkartAutomation.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/TestFrameworkDemo.iml" filepath="$PROJECT_DIR$/.idea/TestFrameworkDemo.iml" />
+>>>>>>> 2314f7628be470adb715f66886f5842285c84841
+    </modules>
+  </component>
+</project>

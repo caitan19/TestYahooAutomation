@@ -1,0 +1,11 @@
+{
+
+	"test_set_1":
+		{
+			"username_input": "caitan19@yahoo.com",
+			"password_input": "3Dsystems#11",
+			"recipient": "imtestuser1912@gmail.com",
+          "subject": "Test subject",
+			"body": "Pypsum is a program written in the Python programming language that interfaces with lipsum.com (courtesy of James Wilson) to generate Lorem Ipsum text, useful for template designing when lots of mock-up text is needed.\n\nPypsum actually consists of two programs, pypsum.py and pypsum-gtk.py."
+		}
+}

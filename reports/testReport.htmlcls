@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">testReport.htmlcls</title>
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">testReport.htmlcls</h1>
+    <p>Report generated on 02-Dec-2023 at 10:53:06 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.0.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">1 test took 00:00:23.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to ge the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" disabled/>
+            <span class="failed">0 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">1 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.11.4&#34;, &#34;Platform&#34;: &#34;Windows-10-10.0.22621-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;7.4.0&#34;, &#34;pluggy&#34;: &#34;1.2.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.0.1&#34;, &#34;metadata&#34;: &#34;3.0.0&#34;}}, &#34;tests&#34;: {&#34;testcases/test_filpkartAutomation.py::TestFlipkartAutomation::test_compare_items_1_test_set_1&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: &#34;URL&#34;, &#34;format_type&#34;: &#34;url&#34;, &#34;content&#34;: &#34;https://www.yatra.com/&#34;, &#34;mime_type&#34;: null, &#34;extension&#34;: null}], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testcases/test_filpkartAutomation.py::TestFlipkartAutomation::test_compare_items_1_test_set_1&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testcases/test_filpkartAutomation.py::TestFlipkartAutomation::test_compare_items_1_test_set_1&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;a target=\&#34;_blank\&#34; href=\&#34;https://www.yatra.com/\&#34; class=\&#34;col-links__extra url\&#34;&gt;URL&lt;/a&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n[&lt;selenium.webdriver.remote.webelement.WebElement (session=\&#34;6e5699a57969aae719fdf2e7a9677aee\&#34;, element=\&#34;D2C506A7188E42DBE50908AA77EE7A44_element_674\&#34;)&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session=\&#34;6e5699a57969aae719fdf2e7a9677aee\&#34;, element=\&#34;D2C506A7188E42DBE50908AA77EE7A44_element_675\&#34;)&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session=\&#34;6e5699a57969aae719fdf2e7a9677aee\&#34;, element=\&#34;D2C506A7188E42DBE50908AA77EE7A44_element_676\&#34;)&gt;]\n\n----------------------------- Captured stderr call -----------------------------\n2023-12-02 10:52:58,363 - DEBUG :- Item is Acer\n2023-12-02 10:52:58,394 - DEBUG :- Item is AirTyme\n2023-12-02 10:52:58,426 - DEBUG :- Item is Alcatel\n2023-12-02 10:52:58,472 - DEBUG :- Item is amp\n2023-12-02 10:52:58,504 - DEBUG :- Item is anee\n2023-12-02 10:52:58,535 - DEBUG :- Item is ANGAGE\n2023-12-02 10:52:58,566 - DEBUG :- Item is APPLE\n2023-12-02 10:52:58,613 - DEBUG :- Item is ASUS\n2023-12-02 10:52:58,629 - DEBUG :- Item is AXXA\n2023-12-02 10:52:58,718 - DEBUG :- Item is Beetel\n2023-12-02 10:52:58,790 - DEBUG :- Item is BlackBear\n2023-12-02 10:52:58,816 - DEBUG :- Item is BlackBerry\n2023-12-02 10:52:58,843 - DEBUG :- Item is BlackZone\n2023-12-02 10:52:58,876 - DEBUG :- Item is Byond\n2023-12-02 10:52:58,898 - DEBUG :- Item is CALLBAR\n2023-12-02 10:52:58,924 - DEBUG :- Item is CAUL\n2023-12-02 10:52:58,953 - DEBUG :- Item is Celkon\n2023-12-02 10:52:58,974 - DEBUG :- Item is Cellecor\n2023-12-02 10:52:59,004 - DEBUG :- Item is Chilli\n2023-12-02 10:52:59,029 - DEBUG :- Item is Comio\n2023-12-02 10:52:59,046 - DEBUG :- Item is Coolpad\n2023-12-02 10:52:59,079 - DEBUG :- Item is Cospex\n2023-12-02 10:52:59,104 - DEBUG :- Item is DAPS\n2023-12-02 10:52:59,156 - DEBUG :- Item is DELL\n2023-12-02 10:52:59,240 - DEBUG :- Item is DETEL\n2023-12-02 10:52:59,266 - DEBUG :- Item is DIZO\n2023-12-02 10:52:59,295 - DEBUG :- Item is Do\n2023-12-02 10:52:59,321 - DEBUG :- Item is Doogee\n2023-12-02 10:52:59,345 - DEBUG :- Item is DUOSS\n2023-12-02 10:52:59,371 - DEBUG :- Item is E L\n2023-12-02 10:52:59,396 - DEBUG :- Item is E&amp;L\n2023-12-02 10:52:59,417 - DEBUG :- Item is Easyfone\n2023-12-02 10:52:59,438 - DEBUG :- Item is Ecotel\n2023-12-02 10:52:59,467 - DEBUG :- Item is EL\n2023-12-02 10:52:59,496 - DEBUG :- Item is Elephone\n2023-12-02 10:52:59,518 - DEBUG :- Item is Energizer\n2023-12-02 10:52:59,540 - DEBUG :- Item is Eunity\n2023-12-02 10:52:59,565 - DEBUG :- Item is FELSONE\n2023-12-02 10:52:59,585 - DEBUG :- Item is Fliky\n2023-12-02 10:52:59,605 - DEBUG :- Item is FLOUNDER\n2023-12-02 10:52:59,630 - DEBUG :- Item is FONEME\n2023-12-02 10:52:59,641 - DEBUG :- Item is Forme\n2023-12-02 10:52:59,670 - DEBUG :- Item is Gamexy\n2023-12-02 10:52:59,685 - DEBUG :- Item is Gamma\n2023-12-02 10:52:59,709 - DEBUG :- Item is Geotel\n2023-12-02 10:52:59,732 - DEBUG :- Item is GFive\n2023-12-02 10:52:59,763 - DEBUG :- Item is GIONEE\n2023-12-02 10:52:59,795 - DEBUG :- Item is GIVA\n2023-12-02 10:52:59,811 - DEBUG :- Item is GOLY\n2023-12-02 10:52:59,842 - DEBUG :- Item is Good One\n2023-12-02 10:52:59,858 - DEBUG :- Item is Google\n2023-12-02 10:52:59,874 - DEBUG :- Item is Grabo\n2023-12-02 10:52:59,916 - DEBUG :- Item is GRAVITEL\n2023-12-02 10:52:59,947 - DEBUG :- Item is GREENBERRI\n2023-12-02 10:52:59,979 - DEBUG :- Item is Heemax\n2023-12-02 10:53:00,024 - DEBUG :- Item is Hexin\n2023-12-02 10:53:00,056 - DEBUG :- Item is Hicell\n2023-12-02 10:53:00,080 - DEBUG :- Item is Honor\n2023-12-02 10:53:00,113 - DEBUG :- Item is hopi5\n2023-12-02 10:53:00,159 - DEBUG :- Item is HOTLINE\n2023-12-02 10:53:00,209 - DEBUG :- Item is HP\n2023-12-02 10:53:00,243 - DEBUG :- Item is HTC\n2023-12-02 10:53:00,276 - DEBUG :- Item is Huawei\n2023-12-02 10:53:00,302 - DEBUG :- Item is Hyve\n2023-12-02 10:53:00,363 - DEBUG :- Item is I Kall\n2023-12-02 10:53:00,418 - DEBUG :- Item is IAIR\n2023-12-02 10:53:00,448 - DEBUG :- Item is iball\n2023-12-02 10:53:00,491 - DEBUG :- Item is Idea\n2023-12-02 10:53:00,527 - DEBUG :- Item is Infinix\n2023-12-02 10:53:00,560 - DEBUG :- Item is Infocus\n2023-12-02 10:53:00,593 - DEBUG :- Item is intaek\n2023-12-02 10:53:00,626 - DEBUG :- Item is Intex\n2023-12-02 10:53:00,658 - DEBUG :- Item is IQOO\n2023-12-02 10:53:00,691 - DEBUG :- Item is iSmart\n2023-12-02 10:53:00,724 - DEBUG :- Item is itel\n2023-12-02 10:53:00,757 - DEBUG :- Item is iVoomi\n2023-12-02 10:53:00,791 - DEBUG :- Item is Jalsa\n2023-12-02 10:53:00,816 - DEBUG :- Item is Jio\n2023-12-02 10:53:00,850 - DEBUG :- Item is Jivi\n2023-12-02 10:53:00,879 - DEBUG :- Item is Jmax\n2023-12-02 10:53:00,903 - DEBUG :- Item is KARA\n2023-12-02 10:53:00,934 - DEBUG :- Item is KARBONN\n2023-12-02 10:53:00,965 - DEBUG :- Item is KAWL\n2023-12-02 10:53:00,991 - DEBUG :- Item is Kechadda\n2023-12-02 10:53:01,020 - DEBUG :- Item is Kechaoda\n2023-12-02 10:53:01,043 - DEBUG :- Item is Kenxinda\n2023-12-02 10:53:01,077 - DEBUG :- Item is Krex\n2023-12-02 10:53:01,101 - DEBUG :- Item is Kult\n2023-12-02 10:53:01,130 - DEBUG :- Item is KXD\n2023-12-02 10:53:01,152 - DEBUG :- Item is LAVA\n2023-12-02 10:53:01,200 - DEBUG :- Item is LeEco\n2023-12-02 10:53:01,232 - DEBUG :- Item is Lemon\n2023-12-02 10:53:01,263 - DEBUG :- Item is Lenovo\n2023-12-02 10:53:01,296 - DEBUG :- Item is Lephone\n2023-12-02 10:53:01,327 - DEBUG :- Item is LG\n2023-12-02 10:53:01,362 - DEBUG :- Item is Lvix\n2023-12-02 10:53:01,396 - DEBUG :- Item is LYF\n2023-12-02 10:53:01,429 - DEBUG :- Item is M-tech\n2023-12-02 10:53:01,461 - DEBUG :- Item is MAFE\n2023-12-02 10:53:01,492 - DEBUG :- Item is Maplin\n2023-12-02 10:53:01,521 - DEBUG :- Item is MarQ by Flipkart\n2023-12-02 10:53:01,550 - DEBUG :- Item is Mate\n2023-12-02 10:53:01,579 - DEBUG :- Item is MAXKING\n2023-12-02 10:53:01,608 - DEBUG :- Item is MAXX\n2023-12-02 10:53:01,636 - DEBUG :- Item is MAYA\n2023-12-02 10:53:01,665 - DEBUG :- Item is MBO\n2023-12-02 10:53:01,699 - DEBUG :- Item is Meizu\n2023-12-02 10:53:01,737 - DEBUG :- Item is Mi\n2023-12-02 10:53:01,773 - DEBUG :- Item is Micromax\n2023-12-02 10:53:01,812 - DEBUG :- Item is MITASHI\n2023-12-02 10:53:01,838 - DEBUG :- Item is mobiistar\n2023-12-02 10:53:01,869 - DEBUG :- Item is Monix\n2023-12-02 10:53:01,900 - DEBUG :- Item is MOTOROLA\n2023-12-02 10:53:01,932 - DEBUG :- Item is MTR\n2023-12-02 10:53:01,963 - DEBUG :- Item is MTS\n2023-12-02 10:53:01,995 - DEBUG :- Item is MU\n2023-12-02 10:53:02,014 - DEBUG :- Item is Muphone\n2023-12-02 10:53:02,042 - DEBUG :- Item is Nextbit\n2023-12-02 10:53:02,058 - DEBUG :- Item is Nokia\n2023-12-02 10:53:02,074 - DEBUG :- Item is Nothing\n2023-12-02 10:53:02,089 - DEBUG :- Item is Nubia\n2023-12-02 10:53:02,126 - DEBUG :- Item is nuveck\n2023-12-02 10:53:02,154 - DEBUG :- Item is Nuvo\n2023-12-02 10:53:02,184 - DEBUG :- Item is Olive\n2023-12-02 10:53:02,214 - DEBUG :- Item is oneme\n2023-12-02 10:53:02,248 - DEBUG :- Item is OnePlus\n2023-12-02 10:53:02,279 - DEBUG :- Item is ONIDA\n2023-12-02 10:53:02,315 - DEBUG :- Item is OPPO\n2023-12-02 10:53:02,342 - DEBUG :- Item is Otho\n2023-12-02 10:53:02,373 - DEBUG :- Item is Panasonic\n2023-12-02 10:53:02,421 - DEBUG :- Item is Peace\n2023-12-02 10:53:02,452 - DEBUG :- Item is Pear\n2023-12-02 10:53:02,483 - DEBUG :- Item is PHILIPS\n2023-12-02 10:53:02,515 - DEBUG :- Item is Pious\n2023-12-02 10:53:02,546 - DEBUG :- Item is Pluzz\n2023-12-02 10:53:02,593 - DEBUG :- Item is POCO\n2023-12-02 10:53:02,625 - DEBUG :- Item is Poya\n2023-12-02 10:53:02,656 - DEBUG :- Item is Protruly\n2023-12-02 10:53:02,687 - DEBUG :- Item is realme\n2023-12-02 10:53:02,732 - DEBUG :- Item is REDMI\n2023-12-02 10:53:02,767 - DEBUG :- Item is ringme\n2023-12-02 10:53:02,798 - DEBUG :- Item is Rokea\n2023-12-02 10:53:02,833 - DEBUG :- Item is RYTE\n2023-12-02 10:53:02,862 - DEBUG :- Item is sainatel\n2023-12-02 10:53:02,896 - DEBUG :- Item is Salora\n2023-12-02 10:53:02,930 - DEBUG :- Item is SAMSUNG\n2023-12-02 10:53:02,963 - DEBUG :- Clicked on SAMSUNG\n2023-12-02 10:53:03,680 - DEBUG :- Item is SAMSUNG Galaxy F13 (Nightsky Green, 64 GB)\n2023-12-02 10:53:03,718 - DEBUG :- Item is SAMSUNG Galaxy F13 (Sunrise Copper, 64 GB)\n2023-12-02 10:53:03,750 - DEBUG :- Item is SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)\n2023-12-02 10:53:03,783 - DEBUG :- Item is SAMSUNG Guru Music 2\n2023-12-02 10:53:03,817 - DEBUG :- Item is SAMSUNG Galaxy M14 5G (Smoky Teal, 128 GB)\n2023-12-02 10:53:03,848 - DEBUG :- Item is SAMSUNG Galaxy M14 5G (Icy Silver, 128 GB)\n2023-12-02 10:53:03,872 - DEBUG :- Clicked on SAMSUNG Galaxy M14 5G (Icy Silver, 128 GB)\n\n------------------------------ Captured log call -------------------------------\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Acer\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is AirTyme\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Alcatel\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is amp\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is anee\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is ANGAGE\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is APPLE\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is ASUS\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is AXXA\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Beetel\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is BlackBear\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is BlackBerry\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is BlackZone\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Byond\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is CALLBAR\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is CAUL\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Celkon\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Cellecor\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Chilli\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Comio\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Coolpad\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Cospex\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is DAPS\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is DELL\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is DETEL\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is DIZO\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Do\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Doogee\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is DUOSS\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is E L\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is E&amp;L\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Easyfone\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Ecotel\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is EL\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Elephone\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Energizer\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Eunity\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is FELSONE\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Fliky\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is FLOUNDER\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is FONEME\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Forme\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Gamexy\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Gamma\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Geotel\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is GFive\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is GIONEE\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is GIVA\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is GOLY\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Good One\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Google\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Grabo\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is GRAVITEL\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is GREENBERRI\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Heemax\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Hexin\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Hicell\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Honor\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is hopi5\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is HOTLINE\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is HP\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is HTC\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Huawei\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Hyve\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is I Kall\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is IAIR\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is iball\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Idea\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Infinix\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Infocus\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is intaek\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Intex\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is IQOO\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is iSmart\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is itel\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is iVoomi\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Jalsa\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Jio\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Jivi\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Jmax\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is KARA\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is KARBONN\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is KAWL\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Kechadda\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Kechaoda\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Kenxinda\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Krex\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Kult\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is KXD\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is LAVA\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is LeEco\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Lemon\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Lenovo\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Lephone\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is LG\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Lvix\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is LYF\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is M-tech\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MAFE\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Maplin\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MarQ by Flipkart\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Mate\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MAXKING\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MAXX\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MAYA\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MBO\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Meizu\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Mi\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Micromax\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MITASHI\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is mobiistar\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Monix\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MOTOROLA\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MTR\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MTS\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is MU\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Muphone\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Nextbit\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Nokia\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Nothing\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Nubia\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is nuveck\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Nuvo\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Olive\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is oneme\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is OnePlus\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is ONIDA\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is OPPO\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Otho\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Panasonic\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Peace\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Pear\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is PHILIPS\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Pious\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Pluzz\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is POCO\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Poya\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Protruly\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is realme\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is REDMI\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is ringme\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Rokea\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is RYTE\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is sainatel\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is Salora\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:57 Item is SAMSUNG\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:59 Clicked on SAMSUNG\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:68 Item is SAMSUNG Galaxy F13 (Nightsky Green, 64 GB)\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:68 Item is SAMSUNG Galaxy F13 (Sunrise Copper, 64 GB)\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:68 Item is SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:68 Item is SAMSUNG Guru Music 2\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:68 Item is SAMSUNG Galaxy M14 5G (Smoky Teal, 128 GB)\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:68 Item is SAMSUNG Galaxy M14 5G (Icy Silver, 128 GB)\nDEBUG    CompareItemsPage:flipkart_compare_items_page.py:70 Clicked on SAMSUNG Galaxy M14 5G (Icy Silver, 128 GB)\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;testReport.htmlcls&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`).classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
